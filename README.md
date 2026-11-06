@@ -102,14 +102,4 @@ Runtime on the machine that produced these files (sandbox, **not** your laptop):
 7. Abbreviation expansions (especially OD/BD/SOS and the ambiguous `MS`) need review by a clinical subject expert.
 8. The pumping-lemma test only illustrates the argument for p = 5; the proof itself is in the report.
 
-## Publishing to GitHub
 
-```bash
-git init
-git add .
-git commit -m "DSA03 NLP Assignment 1 - hospital record normalisation and search"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-(Or create an empty repo on github.com and use *Add file → Upload files* with the unzipped contents.)
